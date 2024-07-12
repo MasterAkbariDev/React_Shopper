@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="font-poppins">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
           <Route path='/' element={<Shop />} />
