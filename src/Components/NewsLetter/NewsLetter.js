@@ -7,7 +7,7 @@ const NewsLetter = () => {
         <h1>Get Exclusive Offers On Your Email</h1>
         <p>Subscribe to our newsletter and stay updated</p>
         <div className='flex-wrap sm:flex-nowrap'>
-            <input type='email' placeholder='Your Email id' />
+            <input className='w-4/5' type='email' placeholder='Your Email id' />
             <button className='mt-[30px] sm:mt-0'>Subscribe</button>
         </div>
     </div>
